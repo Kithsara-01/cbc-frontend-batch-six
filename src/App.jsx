@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="w-full h-screen flex justify-center items-center">
         <Routes path="/">
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage/>}/>
           <Route path="/login" element={<LoginPage/>}/>
           <Route path="/register" element={<RegisterPage/>}/>
           <Route path="/admin/*" element={<AdminPage/>}/>
